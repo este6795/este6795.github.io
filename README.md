@@ -4,6 +4,6 @@
 ## A few things to note
 - This course is *mainly* concerned with **small busniness** website development
 - Most of the website will use HTML as a means of creating functionality
-- Keep in mind that this repository is **public** therefore other can view it
+- Keep in mind that this repository is **public** therefore others can view it
 
 Other than that happy coding!
