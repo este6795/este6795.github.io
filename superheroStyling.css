@@ -3,6 +3,10 @@ h1{
 }
 th{
   background-color:gray; 
+  color:red; 
+}
+th:hover{
+  color:blue; 
 }
 img{
   height:100px; 
