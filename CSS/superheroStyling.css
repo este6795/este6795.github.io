@@ -1,7 +1,10 @@
 h1{
   color:blue; 
+  text-align:center;
 }
 th{
+  border: 2px solid black;
+  padding:15px; 
   background-color:gray; 
   color:red; 
 }
@@ -15,8 +18,9 @@ td {
    border: 2px solid black;
    padding:15px; 
    background-color:rgb(128, 194, 128);
-   
 }
+
 table{
   border-collapse: collapse;
+  text-align: center;
 }
