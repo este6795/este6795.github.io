@@ -6,12 +6,17 @@ th{
   color:red; 
 }
 th:hover{
-  color:blue; 
+  color:rgb(95, 82, 238); 
 }
 img{
   height:100px; 
 }
-table, th, td { 
+th, td { 
    border: 2px solid black;
    padding:15px; 
+   background-color:rgb(128, 194, 128);
+   
+}
+table{
+  border-collapse: collapse;
 }
