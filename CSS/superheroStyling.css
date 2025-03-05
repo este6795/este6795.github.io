@@ -1,12 +1,9 @@
+body{
+  background-color:purple; 
+}
 h1{
   color:blue; 
   text-align:center;
-}
-th{
-  border: 2px solid black;
-  padding:15px; 
-  background-color:gray; 
-  color:red; 
 }
 th:hover{
   color:rgb(95, 82, 238); 
@@ -14,13 +11,19 @@ th:hover{
 img{
   height:100px; 
 }
-td { 
+td, th { 
    border: 2px solid black;
    padding:15px; 
    background-color:rgb(128, 194, 128);
 }
-
+th{
+  background-color:gray; 
+  color:yellowgreen; 
+  font-size:18px;
+}
 table{
   border-collapse: collapse;
-  text-align: center;
+}
+table ul{
+  color:yellow; 
 }
