@@ -13,6 +13,8 @@ th:hover{
 }
 table img{
   height:100px; 
+  display: block; 
+  margin:auto;
 }
 td, th { 
    border: 2px solid black;
@@ -26,6 +28,8 @@ th{
 }
 table{
   border-collapse: collapse;
+  margin:auto;
+
 }
 table ul{
   color:yellow; 
