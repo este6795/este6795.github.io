@@ -1,9 +1,20 @@
+@font-face{
+  font-family: UNCtitle;
+  src: url(https://este6795.github.io/CSS/Fonts/Arvo.ttf)
+}
+
+@font-face{
+  font-family: UNCbody;
+  src: url(https://este6795.github.io/CSS/Fonts/OpenSans.ttf)
+}
+
 body{
   background-color:purple; 
 }
 h1{
   color:green; 
   text-align:center;
+  font-family: UNCtitle; 
 }
 th:hover{
   color:rgb(95, 82, 238); 
