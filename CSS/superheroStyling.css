@@ -31,11 +31,13 @@ td, th {
    border: 2px solid black;
    padding:15px; 
    background-color:rgb(128, 194, 128);
+   font-family: UNCbody;
 }
 th{
   background-color:gray; 
   color:yellowgreen; 
   font-size:18px;
+  font-family: UNCtitle;
 }
 table{
   border-collapse: collapse;
