@@ -2,8 +2,10 @@ th, td {
    border: 2px solid gray; 
 } 
 iframe{
-  width:800px;
-  height:500px;
+  width:100%;
+  max-width: 900px; /* Prevents it from getting too large */
+  height: 600px;
+  border: none;
 }
 body{
    background-color:green;
