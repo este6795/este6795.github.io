@@ -2,10 +2,9 @@ th, td {
    border: 2px solid gray; 
 } 
 iframe{
-  width:100%;
-  max-width: 900px; /* Prevents it from getting too large */
-  height: 600px;
-  border: none;
+   width: 90%;  /* Adjust width based on screen size */
+   max-width: 1200px; /* Prevent it from getting too large */
+   height: 70vh; /* 70% of viewport height */
 }
 body{
    background-color:green;
