@@ -5,6 +5,8 @@ iframe{
    width: 90%;  /* Adjust width based on screen size */
    max-width: 1200px; /* Prevent it from getting too large */
    height: 70vh; /* 70% of viewport height */
+   border: none; /* No border */
+   margin: 0 auto; /* Center the iframe */
 }
 body{
    background-color:green;
