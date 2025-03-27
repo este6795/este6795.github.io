@@ -21,4 +21,9 @@ h1{
 }
 h2{
    color:pink;
+   font-family: BTDFont;
+}
+h3{
+   color:blue;
+   font-family: BTDFont;
 }
