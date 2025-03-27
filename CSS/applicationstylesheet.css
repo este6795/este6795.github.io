@@ -4,6 +4,7 @@ th, td {
 iframe{
    width: 100%;  /* Adjust width based on screen size */
    height: 100%; /* 100% height */
+   max-height: 1200px; /* Set maximum height */
    border: none; /* No border */
    margin: center; /* Center the iframe */
 }
