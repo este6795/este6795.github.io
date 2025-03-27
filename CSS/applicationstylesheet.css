@@ -5,7 +5,7 @@ iframe{
    width: 100%;  /* Adjust width based on screen size */
    height: 100%; /* 100% height */
    border: none; /* No border */
-   margin: 0 auto; /* Center the iframe */
+   margin: center; /* Center the iframe */
 }
 body{
    background-color:green;
