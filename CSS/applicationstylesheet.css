@@ -3,7 +3,6 @@ th, td {
 } 
 iframe{
    width: 60%;  /* Adjust width based on screen size */
-   max-width: 1200px; /* Prevent it from getting too large */
    height: 100%; /* 100% height */
    border: none; /* No border */
    margin: 0 auto; /* Center the iframe */
