@@ -7,6 +7,9 @@
 th, td { 
    border: 2px solid gray; 
 } 
+td{
+   color:aqua;
+}
 iframe{
    width: 1200px;
    height: 800px;
@@ -33,10 +36,13 @@ table{
    margin:auto;
 }
 ul{
-   color:yellow; 
+   color:rgb(255, 0, 157); 
 }
 table img{
    height:100px; 
    display: block; 
    margin:auto;
+}
+p{
+   color:white;
 }
