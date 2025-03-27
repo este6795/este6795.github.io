@@ -1,3 +1,9 @@
+@font-face{
+   font-family: BTDFont;
+   src: url(https://este6795.github.io/CSS/Fonts/LuckiestGuy-Regular.ttf)
+ }
+ 
+
 th, td { 
    border: 2px solid gray; 
 } 
@@ -10,6 +16,8 @@ body{
 }
 h1{
    color:red; 
+   font-family: BTDFont;
+   text-align:center;
 }
 h2{
    color:pink;
