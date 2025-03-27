@@ -10,6 +10,7 @@ th, td {
 iframe{
    width: 1200px;
    height: 800px;
+   margin:auto
 }
 body{
    background-color:green;
@@ -22,6 +23,7 @@ h1{
 h2{
    color:pink;
    font-family: BTDFont;
+   text-align:center;
 }
 h3{
    color:blue;
