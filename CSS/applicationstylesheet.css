@@ -29,3 +29,14 @@ h3{
    color:blue;
    font-family: BTDFont;
 }
+table{
+   margin:auto;
+}
+ul{
+   color:yellow; 
+}
+table img{
+   height:100px; 
+   display: block; 
+   margin:auto;
+}
