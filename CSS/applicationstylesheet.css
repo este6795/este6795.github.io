@@ -46,3 +46,13 @@ table img{
 p{
    color:white;
 }
+#TitleImg{
+   height:600px;
+   display: block;
+   margin:auto;
+}
+img{
+   height: 100px;
+   display: block;
+   margin:auto;
+}
