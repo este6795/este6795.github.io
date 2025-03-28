@@ -54,5 +54,5 @@ p{
 #GameImg{
    height: 300px;
    display: block;
-   float:left;
+   margin:auto;
 }
