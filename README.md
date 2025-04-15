@@ -19,7 +19,7 @@ In this repository, you will find resources, examples, and assignments that will
 
 Happy coding, and let's build something amazing together! Welcome to BACS 200-026
 
-## In this repository we will mainly focus on the creation of a website...
+## In this repository we will mainly focus on the creation of a website
 
 ## A few things to note
 
