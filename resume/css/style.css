@@ -22,7 +22,7 @@ img {
 
 /* Style for h1 elements */
 h1 {
-    color: hsl(210, 50%, 40%); /* Custom color using HSL */
+    color: hsl(211, 39%, 70%); /* Custom color using HSL */
     font-size: 2.5rem;
     font-weight: bold;
     text-decoration: underline;
@@ -31,7 +31,7 @@ h1 {
 }
 /* Style for h2 elements */
 h2 {
-    color: hsl(210, 40%, 50%);
+    color: hsl(211, 31%, 78%);
     font-size: 2rem;
     font-weight: bold;
     margin-top: 20px;
@@ -41,7 +41,7 @@ h2 {
 
 /* Style for h3 elements */
 h3 {
-    color: hsl(210, 30%, 60%);
+    color: hsl(210, 100%, 93%);
     font-size: 1.5rem;
     font-weight: normal;
     margin-top: 15px;
