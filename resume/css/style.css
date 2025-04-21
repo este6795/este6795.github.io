@@ -1,3 +1,9 @@
+/*Loading fonts from Google Fonts*/
+@font-face {
+    font-family: 'GothicCondensed';
+    src: url("https://este6795.github.io/resume/fonts/SpecialGothicCondensedOne-Regular.ttf");
+}
+
 /* Apply a background color to the entire page */
 body {
     background-color: #000000; /* Light blue custom color */
@@ -21,6 +27,7 @@ h1 {
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
+    font-family: 'GothicCondensed';
 }
 /* Style for h2 elements */
 h2 {
@@ -29,6 +36,7 @@ h2 {
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
+    font-family: 'GothicCondensed';
 }
 
 /* Style for h3 elements */
@@ -38,12 +46,19 @@ h3 {
     font-weight: normal;
     margin-top: 15px;
     text-align: left;
+    font-family: 'GothicCondensed';
 }
 
 /* Style for p elements */
 p {
     color: #ffffff;
     font-size: 16px;
+    margin: 10px 0;
+    text-align: justify;
+}
+ul {
+    color: #ffffff;
+    font-size: 14px;
     margin: 10px 0;
     text-align: justify;
 }
