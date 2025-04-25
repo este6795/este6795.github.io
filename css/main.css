@@ -1,65 +1,76 @@
-/* Apply a background color to the entire page */
+/* Base setup */
 body {
-    background-color: #000000; /* Light blue custom color */
+    background-color: #000000;
     margin: 0;
     font-family: Arial, sans-serif;
+    padding: 2vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
-/* Style for img elements */
+/* Image styling: maintain visual balance on all devices */
 img {
-    width: 100%;
+    width: 90vw;
     max-width: 500px;
-    border-radius: 10px;
+    height: auto;
+    border-radius: 2vw;
     opacity: 0.9;
     filter: grayscale(50%);
+    display: block;
+    margin: 2vw auto;
 }
 
-/* Style for h1 elements */
+/* Headings with vw-based sizing */
 h1 {
-    color: hsl(210, 50%, 40%); /* Custom color using HSL */
-    font-size: 2.5rem;
+    color: hsl(210, 50%, 40%);
+    font-size: 6vw;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
+    margin: 4vw 0;
 }
-/* Style for h2 elements */
+
 h2 {
     color: hsl(210, 40%, 50%);
-    font-size: 2rem;
+    font-size: 5vw;
     font-weight: bold;
-    margin-top: 20px;
     text-align: center;
+    margin: 3vw 0;
 }
 
-/* Style for h3 elements */
 h3 {
     color: hsl(210, 30%, 60%);
-    font-size: 1.5rem;
+    font-size: 4vw;
     font-weight: normal;
-    margin-top: 15px;
     text-align: left;
+    margin: 2.5vw 0;
 }
 
-/* Style for p elements */
+/* Paragraphs styled with relative sizes and spacing */
 p {
     color: #ffffff;
-    font-size: 16px;
-    margin: 10px 0;
+    font-size: 3.5vw;
+    margin: 2vw 0;
     text-align: justify;
+    line-height: 1.5;
 }
 
-/* Style for table elements */
+/* Table responsiveness and text flow */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: auto;
+    margin: 3vw 0;
+    table-layout: auto;
+    word-wrap: break-word;
 }
 
-table th, table td {
+table th,
+table td {
     border: 1px solid #21b9c4;
-    padding: 10px;
+    padding: 2vw;
     text-align: left;
     color: #ffffffe8;
+    font-size: 3.5vw;
 }
 
 table th {
@@ -67,6 +78,13 @@ table th {
     font-weight: bold;
     text-align: center;
 }
-.homebutton{
-    width: 50px; 
+
+/* Home button scales nicely across devices */
+.homebutton {
+    width: 12vw;
+    min-width: 40px;
+    max-width: 60px;
+    height: auto;
+    display: block;
+    margin: 3vw auto;
 }
