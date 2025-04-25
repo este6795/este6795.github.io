@@ -45,24 +45,30 @@ p {
    margin: 2vw 0;
 }
 
-/* Tables */
+/* Table styling */
 table {
-   margin: auto;
-   border-collapse: collapse;
    width: 100%;
-   max-width: 100%;
-   word-break: break-word;
+   border-collapse: collapse;
+   margin: 3vw 0;
+   table-layout: auto;
+   word-wrap: break-word;
 }
 
-th, td {
-   border: 2px solid gray;
-   font-size: min(3.5vw, 18px);
+table th,
+table td {
+   border: 1px solid gray;
    padding: 2vw;
+   text-align: left;
+   color: aqua;
+   font-size: min(3.5vw, 18px);
 }
 
-td {
-   color: aqua;
+table th {
+   background-color: hsl(240, 55%, 35%);
+   font-weight: bold;
+   text-align: center;
 }
+
 
 /* Unordered lists */
 ul {
