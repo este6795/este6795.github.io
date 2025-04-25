@@ -1,49 +1,79 @@
-@font-face{
+@font-face {
   font-family: UNCtitle;
-  src: url(https://este6795.github.io/css/Fonts/Arvo.ttf)
+  src: url(https://este6795.github.io/css/Fonts/Arvo.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: UNCbody;
-  src: url(https://este6795.github.io/css/Fonts/OpenSans.ttf)
+  src: url(https://este6795.github.io/css/Fonts/OpenSans.ttf);
 }
 
-body{
-  background-color:purple; 
+/* Base page styling */
+body {
+  background-color: purple;
+  margin: 0;
+  padding: 2vw;
+  font-family: UNCbody, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-h1{
-  color:green; 
-  text-align:center;
-  font-family: UNCtitle; 
-}
-th:hover{
-  color:rgb(95, 82, 238); 
-}
-#Flash{
-  color:red; 
-}
-table img{
-  height:100px; 
-  display: block; 
-  margin:auto;
-}
-td, th { 
-   border: 2px solid black;
-   padding:15px; 
-   background-color:rgb(128, 194, 128);
-   font-family: UNCbody;
-}
-th{
-  background-color:gray; 
-  color:yellowgreen; 
-  font-size:18px;
+
+/* Headings */
+h1 {
+  color: green;
+  text-align: center;
   font-family: UNCtitle;
+  font-size: min(8vw, 60px);
+  margin: 3vw 0;
 }
-table{
-  border-collapse: collapse;
-  margin:auto;
 
+/* Table */
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+  word-break: break-word;
 }
-table ul{
-  color:yellow; 
+
+/* Table content */
+td, th {
+  border: 2px solid black;
+  padding: min(4vw, 15px);
+  background-color: rgb(128, 194, 128);
+  font-family: UNCbody;
+  font-size: min(4vw, 18px);
+}
+
+/* Table headers */
+th {
+  background-color: gray;
+  color: yellowgreen;
+  font-family: UNCtitle;
+  font-size: min(4.5vw, 18px);
+}
+
+th:hover {
+  color: rgb(95, 82, 238);
+}
+
+/* Table images */
+table img {
+  height: min(25vw, 100px);
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Colored ID */
+#Flash {
+  color: red;
+  font-size: min(4vw, 18px);
+}
+
+/* Table list items */
+table ul {
+  color: yellow;
+  font-size: min(3.5vw, 16px);
+  margin: 1vw 0;
 }

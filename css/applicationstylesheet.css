@@ -1,58 +1,103 @@
-@font-face{
+@font-face {
    font-family: BTDFont;
-   src: url(https://este6795.github.io/css/Fonts/LuckiestGuy-Regular.ttf)
- }
- 
+   src: url(https://este6795.github.io/css/Fonts/LuckiestGuy-Regular.ttf);
+}
 
-th, td { 
-   border: 2px solid gray; 
-} 
-td{
-   color:aqua;
+/* Page base */
+body {
+   background-color: rgb(0, 0, 0);
+   margin: 0;
+   padding: 2vw;
+   font-family: Arial, sans-serif;
+   box-sizing: border-box;
+   overflow-x: hidden;
 }
-iframe{
-   width: 1200px;
-   height: 800px;
-   margin:auto
-}
-body{
-   background-color:rgb(0, 0, 0);
-}
-h1{
-   color:red; 
+
+/* Headings */
+h1 {
+   color: red;
    font-family: BTDFont;
-   text-align:center;
+   font-size: min(8vw, 64px);
+   text-align: center;
+   margin: 3vw 0;
 }
-h2{
-   color:pink;
+
+h2 {
+   color: pink;
    font-family: BTDFont;
-   text-align:center;
+   font-size: min(6vw, 48px);
+   text-align: center;
+   margin: 2.5vw 0;
 }
-h3{
-   color:blue;
+
+h3 {
+   color: blue;
    font-family: BTDFont;
+   font-size: min(5vw, 32px);
+   margin: 2vw 0;
 }
-table{
-   margin:auto;
+
+/* Paragraphs */
+p {
+   color: white;
+   font-size: min(3.5vw, 18px);
+   line-height: 1.6;
+   margin: 2vw 0;
 }
-ul{
-   color:rgb(255, 0, 157); 
+
+/* Tables */
+table {
+   margin: auto;
+   border-collapse: collapse;
+   width: 100%;
+   max-width: 100%;
+   word-break: break-word;
 }
-table img{
-   height:100px; 
-   display: block; 
-   margin:auto;
+
+th, td {
+   border: 2px solid gray;
+   font-size: min(3.5vw, 18px);
+   padding: 2vw;
 }
-p{
-   color:white;
+
+td {
+   color: aqua;
 }
-#TitleImg{
-   height:600px;
+
+/* Unordered lists */
+ul {
+   color: rgb(255, 0, 157);
+   font-size: min(3.5vw, 18px);
+   margin: 2vw 0;
+}
+
+/* Table images */
+table img {
+   height: min(25vw, 100px);
+   width: auto;
    display: block;
-   margin:auto;
+   margin: auto;
 }
-#GameImg{
-   height: 300px;
+
+/* Specific image IDs */
+#TitleImg {
+   height: min(90vw, 600px);
+   width: auto;
    display: block;
-   margin:auto;
+   margin: auto;
+}
+
+#GameImg {
+   height: min(60vw, 300px);
+   width: auto;
+   display: block;
+   margin: auto;
+}
+
+/* iFrames */
+iframe {
+   width: min(90vw, 1200px);
+   height: min(70vw, 800px);
+   display: block;
+   margin: 4vw auto;
 }
