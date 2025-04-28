@@ -10,7 +10,7 @@ body {
 
 /* Image styling */
 img {
-    width: min(90vw, 500px);
+    width: min(100vw, 500px);
     height: auto;
     border-radius: 2vw;
     opacity: 0.9;
@@ -22,7 +22,7 @@ img {
 /* Headings */
 h1 {
     color: hsl(210, 50%, 40%);
-    font-size: min(6vw, 48px);
+    font-size: min(8vw, 48px);
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     color: hsl(210, 40%, 50%);
-    font-size: min(5vw, 36px);
+    font-size: min(7vw, 36px);
     font-weight: bold;
     text-align: center;
     margin: 3vw 0;
@@ -39,7 +39,7 @@ h2 {
 
 h3 {
     color: hsl(210, 30%, 60%);
-    font-size: min(4vw, 28px);
+    font-size: min(7vw, 28px);
     font-weight: normal;
     text-align: left;
     margin: 2.5vw 0;
@@ -48,7 +48,7 @@ h3 {
 /* Paragraphs */
 p {
     color: #ffffff;
-    font-size: min(3.5vw, 18px);
+    font-size: min(5vw, 18px);
     margin: 2vw 0;
     text-align: justify;
     line-height: 1.6;
@@ -69,7 +69,7 @@ table td {
     padding: 2vw;
     text-align: left;
     color: #ffffffe8;
-    font-size: min(3.5vw, 18px);
+    font-size: min(5vw, 18px);
 }
 
 table th {
@@ -80,7 +80,7 @@ table th {
 
 /* Home button */
 .homebutton {
-    width: min(12vw, 60px);
+    width: min(20vw, 60px);
     min-width: 40px;
     height: auto;
     display: block;
