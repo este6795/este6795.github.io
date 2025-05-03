@@ -1,88 +1,53 @@
-/* Base setup */
 body {
-    background-color: #000000;
-    margin: 0;
     font-family: Arial, sans-serif;
-    padding: 2vw;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
-
-/* Image styling */
-img {
-    width: min(100vw, 500px);
-    height: auto;
-    border-radius: 2vw;
-    opacity: 0.9;
-    filter: grayscale(50%);
-    display: block;
-    margin: 2vw auto;
-}
-
-/* Headings */
-h1 {
-    color: hsl(210, 50%, 40%);
-    font-size: min(8vw, 48px);
-    font-weight: bold;
-    text-decoration: underline;
-    text-align: center;
-    margin: 4vw 0;
-}
-
-h2 {
-    color: hsl(210, 40%, 50%);
-    font-size: min(7vw, 36px);
-    font-weight: bold;
-    text-align: center;
-    margin: 3vw 0;
-}
-
-h3 {
-    color: hsl(210, 30%, 60%);
-    font-size: min(7vw, 28px);
-    font-weight: normal;
-    text-align: left;
-    margin: 2.5vw 0;
-}
-
-/* Paragraphs */
-p {
-    color: #ffffff;
-    font-size: min(5vw, 18px);
-    margin: 2vw 0;
-    text-align: justify;
     line-height: 1.6;
-}
-
-/* Table styling */
-table {
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  table {
     width: 100%;
     border-collapse: collapse;
-    margin: 3vw 0;
-    table-layout: auto;
-    word-wrap: break-word;
-}
-
-table th,
-table td {
-    border: 1px solid #21b9c4;
-    padding: 2vw;
-    text-align: left;
-    color: #ffffffe8;
-    font-size: min(5vw, 18px);
-}
-
-table th {
-    background-color: hsl(210, 50%, 30%);
-    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  footer {
+    background: #2d3e50;
+    color: white;
     text-align: center;
-}
-
-/* Home button */
-.homebutton {
-    width: min(20vw, 60px);
-    min-width: 40px;
-    height: auto;
-    display: block;
-    margin: 3vw auto;
-}
+    padding: 1rem;
+  }
+  
